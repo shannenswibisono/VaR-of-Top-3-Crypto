@@ -39,7 +39,7 @@ In this study, three Value at Risk (VaR) calculation methods have been implement
 
 The VaR values for Ethereum consistently exceed those for Bitcoin (the second-largest VaR) and Tether (the smallest VaR). This consistency across implemented methods suggests robust VaR results. Overall, the Historical VaR method produces higher VaR values compared to other methods. The study demonstrates that different significance levels can yield different VaR values but lead to a consistent conclusion. Higher confidence levels result in higher estimates of maximum loss.
 
-The researcher observes that the VaR results align with descriptive statistical tests conducted before implementing the VaR methods. For instance, Ethereum, with the highest average daily return, also exhibits the highest VaR, followed by Bitcoin and Tether. This indicates that high returns are associated with higher risks.
+We observe that the VaR results align with descriptive statistical tests conducted before implementing the VaR methods. For instance, Ethereum, with the highest average daily return, also exhibits the highest VaR, followed by Bitcoin and Tether. This indicates that high returns are associated with higher risks.
 
 ## Things to Improve
 - Assets do not follow a normal distribution, as evidenced by the non-normal distribution of daily return results calculated in descriptive statistical tests. Assuming that the data remains normally distributed can impact the resulting VaR, as overestimation or underestimation may occur. Therefore, it is necessary to transform the daily return data so that its distribution approximates normality before calculating VaR.
