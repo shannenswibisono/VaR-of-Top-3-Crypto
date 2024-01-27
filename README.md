@@ -1,6 +1,6 @@
 # Value at Risk of The Top 3 Cryptocurrencies
 Hi everyone!˚ʚ♡ɞ˚  
-This is a collaboration work of me and Vira during our third year of university. As the mathematic students, we tried to predict the Value at Risk (VaR) of the top 3 cryptocurrencies using 3 simulations. Let's begin!   
+This is a collaboration work of me and Vira during our third year of university. As the mathematic students, we tried to predict the Value at Risk (VaR) of the top 3 cryptocurrencies using 3 simulations using RStudio Code. Let's begin!   
 
 ## Background
 This project was based on the post-information technology era that successfully driven new innovations in global-scale payment methods, such as cryptocurrency. The development of cryptocurrencies continues to grow rapidly each year, making them a preferred choice for many investors. However, predicting the prices of cryptocurrencies is challenging due to their dynamic volatility.   
@@ -17,6 +17,24 @@ Using the adjusted close data for each cryptocurrency obtained, we processes the
 - We only use one day for the holding period, assuming that investors hold their assets only for a day.
 
 ## Result of Project
+### Daily return of the 3 cryptocurrencies:
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/66c2f263-dd61-4365-847f-fdfaed65aa7e)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/961d8fdb-86a8-4c30-a0a6-cc9f68e0d01d)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/bbbee10a-e6b0-42c2-943c-c5e18334fc57)
+### Value at Risk Using Monte Carlo Simulations
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/4c0b4173-8052-4113-b8fb-a6749deeee9e)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/5008d2cf-27d1-4b3d-b6d3-1b3c1b2b9bcd)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/fd0f4edf-3f67-470f-87b1-9ba65327efe8)
+### Value at Risk Using Historical Method
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/3414815b-4b6f-4172-8a1c-539dd8c74fca)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/d8cd109e-08c7-4760-9d7a-4c0b11e1520d)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/3995b886-d79f-4b78-9fd0-550b44cc2d63)
+### Value at Risk Using Variance-Covariance Method
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/2155cd55-89d3-434f-a76f-4052f3e24715)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/89e6f4b9-94ab-4ed4-bc2b-faf4dc5369ab)
+![image](https://github.com/shannenswibisono/VaR-of-Top-3-Crypto/assets/155773383/a3ad2b32-aab0-43ef-92a1-0cc875c54432)
+
+## Conclusion
 In this study, three Value at Risk (VaR) calculation methods have been implemented for the cryptocurrency assets: Bitcoin, Ethereum, and Tether. 
 
 The VaR values for Ethereum consistently exceed those for Bitcoin (the second-largest VaR) and Tether (the smallest VaR). This consistency across implemented methods suggests robust VaR results. Overall, the Historical VaR method produces higher VaR values compared to other methods. The study demonstrates that different significance levels can yield different VaR values but lead to a consistent conclusion. Higher confidence levels result in higher estimates of maximum loss.
