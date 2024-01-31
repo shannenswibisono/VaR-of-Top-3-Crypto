@@ -1,6 +1,6 @@
 # Value at Risk of The Top 3 Cryptocurrencies
 Hi everyone!˚ʚ♡ɞ˚  
-This is a collaboration work of me and Vira during our third year of university. As the mathematic students, we tried to predict the Value at Risk (VaR) of the top 3 cryptocurrencies using 3 simulations using RStudio Code. Let's begin!   
+This is a collaboration work of me and Vira during our third year of university. As the mathematic students, we tried to predict the Value at Risk (VaR) of the top 3 cryptocurrencies using 3 simulations with RStudio Code. Let's begin!   
 
 ## Background
 This project was based on the post-information technology era that successfully driven new innovations in global-scale payment methods, such as cryptocurrency. The development of cryptocurrencies continues to grow rapidly each year, making them a preferred choice for many investors. However, predicting the prices of cryptocurrencies is challenging due to their dynamic volatility.   
